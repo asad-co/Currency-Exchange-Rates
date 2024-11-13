@@ -94,8 +94,8 @@
 		C340D00C2CD642E800FFC0D7 /* currency_rates_latest */ = {
 			isa = PBXGroup;
 			children = (
-				C340D00D2CD642E800FFC0D7 /* currency_rates_latestApp.swift */,
-				C340D00F2CD642E800FFC0D7 /* ContentView.swift */,
+				C3CC7D432CE4FFC200558026 /* Views */,
+				C3CC7D422CE4FFAD00558026 /* App */,
 				C340D0112CD642EA00FFC0D7 /* Assets.xcassets */,
 				C340D0132CD642EA00FFC0D7 /* Preview Content */,
 			);
@@ -125,6 +125,38 @@
 				C340D02A2CD642EB00FFC0D7 /* currency_rates_latestUITestsLaunchTests.swift */,
 			);
 			path = currency_rates_latestUITests;
+			sourceTree = "<group>";
+		};
+		C3CC7D422CE4FFAD00558026 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C340D00D2CD642E800FFC0D7 /* currency_rates_latestApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C3CC7D432CE4FFC200558026 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC7D452CE5120900558026 /* Common */,
+				C3CC7D442CE511F900558026 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C3CC7D442CE511F900558026 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C340D00F2CD642E800FFC0D7 /* ContentView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C3CC7D452CE5120900558026 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,10 +446,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"currency_rates_latest/Preview Content\"";
-				DEVELOPMENT_TEAM = 7YQ6Z36K2F;
+				DEVELOPMENT_TEAM = L596296CH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -432,6 +465,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kstomltd.currency-rates-latest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,10 +477,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"currency_rates_latest/Preview Content\"";
-				DEVELOPMENT_TEAM = 7YQ6Z36K2F;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -461,6 +495,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kstomltd.currency-rates-latest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
