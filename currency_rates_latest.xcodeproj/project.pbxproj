@@ -14,6 +14,7 @@
 		C340D01F2CD642EB00FFC0D7 /* currency_rates_latestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C340D01E2CD642EB00FFC0D7 /* currency_rates_latestTests.swift */; };
 		C340D0292CD642EB00FFC0D7 /* currency_rates_latestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C340D0282CD642EB00FFC0D7 /* currency_rates_latestUITests.swift */; };
 		C340D02B2CD642EB00FFC0D7 /* currency_rates_latestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C340D02A2CD642EB00FFC0D7 /* currency_rates_latestUITestsLaunchTests.swift */; };
+		C3B3D9942D019B2100106B30 /* CurrencyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B3D9932D019B2100106B30 /* CurrencyCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C340D0242CD642EB00FFC0D7 /* currency_rates_latestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = currency_rates_latestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C340D0282CD642EB00FFC0D7 /* currency_rates_latestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currency_rates_latestUITests.swift; sourceTree = "<group>"; };
 		C340D02A2CD642EB00FFC0D7 /* currency_rates_latestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currency_rates_latestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3B3D9932D019B2100106B30 /* CurrencyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,14 @@
 			path = currency_rates_latestUITests;
 			sourceTree = "<group>";
 		};
+		C3B3D9922D019AEE00106B30 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				C3B3D9932D019B2100106B30 /* CurrencyCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
 		C3CC7D422CE4FFAD00558026 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +165,7 @@
 		C3CC7D452CE5120900558026 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C3B3D9922D019AEE00106B30 /* Cards */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -290,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C340D0102CD642E800FFC0D7 /* ContentView.swift in Sources */,
+				C3B3D9942D019B2100106B30 /* CurrencyCard.swift in Sources */,
 				C340D00E2CD642E800FFC0D7 /* currency_rates_latestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
